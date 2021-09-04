@@ -22,12 +22,7 @@ public class Solution02 {
         System.out.print("What is the input string?  ");
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
-        int count = 0;
-
-        for (int i = 0; i < string.length(); i++)
-        {
-            count++;
-        }
+        int count = string.length();
 
         System.out.print(string + " has " + count + " characters.");
     }
